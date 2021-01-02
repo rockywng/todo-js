@@ -1,0 +1,96 @@
+html {
+    height= 100vh;
+    min-width= 600px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container {
+    width= 600px;
+    display= flex;
+    justify-content= center;
+    flex-direction= column;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.main {
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+input[type="text"] {
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #008000;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: white;
+    outline: 0;
+    border: none;
+    color: #008000;
+}
+
+button:hover {
+    color:darkgreen;
+}
+
+.todoList {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px, 25px;
+    height: 100%;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid green;
+    font-size: 1rem;
+    color: green;
+}
+
+i {
+    pointer-events: none;
+}
+
+.clearAll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.clearAll:hover {
+    color: grey;
+}
+
